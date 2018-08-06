@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>AGR FAIR Assessment Results</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body style="background-color:aliceblue">
+        <center><h1>AGR FAIR Assessment Results</h1></center>
+        <center><h5>This table summarizes FAIR assessment results for 132 tools and 7 datasets from the <a href="https://www.alliancegenome.org/" style="color:blue">Alliance of Genome Resources (AGR)</a>. AGR consists of resources from Flybase, Wormbase, The Gene Ontology Consortium, The Saccharomyces Genome Database, The Zebrafish Information Network, The Rat Genome Database, and Mouse Genome Informatics. FAIR assessments were performed using <a href="https://fairshake.cloud/" style="color:blue">FAIRshake</a> and the results can be accessed within the <a href="https://fairshake.cloud/project/2/resources" style="color:blue">AGR project</a>. Summary images for each analysis are available within the table below and complete analysis reports can be accessed at the bottom of the page in the form of a Jupyter Notebook.</h5></center>
+        <table align='center'>
+            <tr>
+                <th></th>
+                <th>All AGR<br />Tools</th>
+                <th>All AGR<br />Datasets</th>
+                <th>FlyBase</th>
+                <th>WormBase</th>
+                <th>The Gene<br/>Ontology Consortium</th>
+                <th>The Saccharomyces<br/>Genome Database</th>
+                <th>The Zebrafish<br/>Information Network</th>
+                <th>The Rat<br/>Genome Database</th>
+                <th>The Mouse<br/>Genome Informatics</th>
+            </tr>
+            <tr>
+                <td><b>Tools &#38;<br/>Datasets</b></td>
+                <td colspan=1><font size="2">Analysis of 132 AGR tools</font></td>
+                <td colspan=1><font size="2">Analysis of 7 AGR datasets</font></td>
+                <td colspan=1><font size="2">Analysis of 21 FlyBase tools.</font></td>
+                <td colspan=1><font size="2">Analysis of 20 WormBase tools.</font></td>
+                <td colspan=1><font size="2">Analysis of 2 Gene Ontology Consortium tools.</font></td>
+                <td colspan=1><font size="2">Analysis of 23 Saccharomyces Genome Database tools.</font></td>
+                <td colspan=1><font size="2">Analysis of 9 Zebrafish Information Network tools.</font></td>
+                <td colspan=1><font size="2">Analysis of 24 Rat Genome Database tools.</font></td>
+                <td colspan=1><font size="2">Analysis of 24 Mouse Genome Informatics tools.</font></td>
+            </tr>
+            <tr>
+                <td><b>Rubric</b></td>
+                <td colspan=1 ><img class="myImages" id="myImg" src="images/tools_rubric.png" style="width:110%;max-width:140px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/datasets_rubric.png" style="width:110%;max-width:140px"></td>
+                <td colspan=1 ><img class="myImages"id="myImg" src="images/tools_rubric.png" style="width:110%;max-width:140px"></td>
+                <td colspan=1 ><img class="myImages" id="myImg" src="images/tools_rubric.png" style="width:110%;max-width:140px"></td>
+                <td colspan=1 ><img class="myImages" id="myImg" src="images/tools_rubric.png" style="width:110%;max-width:140px"></td>
+                <td colspan=1 ><img class="myImages" id="myImg" src="images/tools_rubric.png" style="width:110%;max-width:140px"></td>
+                <td colspan=1 ><img class="myImages" id="myImg" src="images/tools_rubric.png" style="width:110%;max-width:140px"></td>
+                <td colspan=1 ><img class="myImages" id="myImg" src="images/tools_rubric.png" style="width:110%;max-width:140px"></td>
+                <td colspan=1 ><img class="myImages" id="myImg" src="images/tools_rubric.png" style="width:110%;max-width:140px"></td>
+            </tr>
+            <tr>
+                <td><b>Average Score<br/>Per Question</b></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/AGR_tools_avg_answer.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/AGR_datasets_avg_answer.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/FlyBase_tools_avg_answer.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg" src="images/WormBase_tools_avg_answer.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/GOC_tools_avg_answer.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/SGD_tools_avg_answer.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/ZIN_tools_avg_answer.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/RGD_tools_avg_answer.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/MGI_tools_avg_answer.png" style="width:100%;max-width:100px"></td>
+            </tr>
+            <tr>
+                <td><b>Answers<br />Per Question</b></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/AGR_tools_answer_breakdown.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/AGR_datasets_answer_breakdown.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/FlyBase_tools_answer_breakdown.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/WormBase_tools_answer_breakdown.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/GOC_tools_answer_breakdown.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/SGD_tools_answer_breakdown.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/ZIN_tools_answer_breakdown.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/RGD_tools_answer_breakdown.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/MGI_tools_answer_breakdown.png" style="width:100%;max-width:100px"></td>
+            </tr>
+            <tr>
+                <td><b>Correlations<br />Between Questions</b></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/AGR_tools_correlation.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/AGR_datasets_correlation.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/FlyBase_tools_correlation.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg" src="images/WormBase_tools_correlation.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg" src="images/GOC_tools_correlation.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg" src="images/SGD_tools_correlation.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg" src="images/ZIN_tools_correlation.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg" src="images/RGD_tools_correlation.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg" src="images/MGI_tools_correlation.png" style="width:100%;max-width:100px"></td>
+            </tr>
+            <tr>
+                <td><b>Mean<br />FAIRness</b></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/AGR_tools_mean_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/AGR_datasets_mean_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/FlyBase_tools_mean_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/WormBase_tools_mean_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/GOC_tools_mean_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/SGD_tools_mean_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/ZIN_tools_mean_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/RGD_tools_mean_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/MGI_tools_mean_fairness.png" style="width:100%;max-width:100px"></td>
+            </tr>
+
+            <tr>
+                <td><b>FAIRness<br />Distribution</b></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/AGR_tools_overall_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/AGR_datasets_overall_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages"id="myImg"  src="images/FlyBase_tools_overall_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/WormBase_tools_overall_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/GOC_tools_overall_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/SGD_tools_overall_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/ZIN_tools_overall_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/RGD_tools_overall_fairness.png" style="width:100%;max-width:100px"></td>
+                <td colspan=1><img class="myImages" id="myImg" src="images/MGI_tools_overall_fairness.png" style="width:100%;max-width:100px"></td>
+            </tr>
+            <tr>
+                <td><b>FAIR Analysis<br />Reports</b></td>
+                <td><a href="https://github.com/meganwojciechowicz/meganwojciechowicz.github.io/blob/master/FAIRshake_evaluations_tools_final.ipynb" class="myButton">Jupyter Notebook</a></td>
+                <td><a href="https://github.com/meganwojciechowicz/meganwojciechowicz.github.io/blob/master/FAIRshake_evaluations_datasets_final.ipynb"class="myButton">Jupyter Notebook</a></td>
+                <td><a href="https://github.com/meganwojciechowicz/meganwojciechowicz.github.io/blob/master/FAIRshake_evaluations_FlyBase.ipynb"class="myButton">Jupyter Notebook</a></td>
+                <td><a href="https://github.com/meganwojciechowicz/meganwojciechowicz.github.io/blob/master/FAIRshake_evaluations_WormBase.ipynb"class="myButton">Jupyter Notebook</a></td>
+                <td><a href="https://github.com/meganwojciechowicz/meganwojciechowicz.github.io/blob/master/FAIRshake_evaluations_Gene_Ontology_Consortium.ipynb"class="myButton">Jupyter Notebook</a></td>     <td><a href="https://github.com/meganwojciechowicz/meganwojciechowicz.github.io/blob/master/FAIRshake_evaluations_Saccharomyces_Genome_Database.ipynb"class="myButton">Jupyter Notebook</a></td> 
+                <td><a href="https://github.com/meganwojciechowicz/meganwojciechowicz.github.io/blob/master/FAIRshake_evaluations_Zebrafish_Information_Network.ipynb"class="myButton">Jupyter Notebook</a></td> 
+                <td><a href="https://github.com/meganwojciechowicz/meganwojciechowicz.github.io/blob/master/FAIRshake_evaluations_Rat_Genome_Database.ipynb"class="myButton">Jupyter Notebook</a></td>
+                <td><a href="https://github.com/meganwojciechowicz/meganwojciechowicz.github.io/blob/master/FAIRshake_evaluations_Mouse_Genome_Informatics.ipynb"class="myButton">Jupyter Notebook</a></td>
+            </tr>
+        </table>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('myModal');
+
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var images = document.getElementsByClassName('myImages');
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            for (var i = 0; i < images.length; i++) {
+                var img = images[i];
+                img.onclick = function(evt){
+                    console.log(evt);
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                    captionText.innerHTML = this.alt;
+                }
+            }
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+                modal.style.display = "none";
+            }</script>
+    </body>
+</html>
+
+<!--
+
+[[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+[::::::::::::::      ::::::::::::::]
+[::::::::::::::      ::::::::::::::]
+[::::::[[[[[[[:      :]]]]]]]::::::]
+[:::::[                      ]:::::]
+[:::::[                      ]:::::]
+[:::::[                      ]:::::]
+[:::::[                      ]:::::]
+[:::::[     CODE THE WEB     ]:::::]
+[:::::[  http://brackets.io  ]:::::]
+[:::::[                      ]:::::]
+[:::::[                      ]:::::]
+[:::::[                      ]:::::]
+[:::::[                      ]:::::]
+[::::::[[[[[[[:      :]]]]]]]::::::]
+[::::::::::::::      ::::::::::::::]
+[::::::::::::::      ::::::::::::::]
+[[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
