@@ -1,7 +1,8 @@
 <style>
 }
 table {
-    width: 80%;
+    width:80%;
+    position: relative;
     table-layout: fixed;
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -10,7 +11,6 @@ table {
 td, th {
     border: 1px solid #dddddd;
     text-align: center;
-    width: 80%;
 }
 
 tr:nth-child(odd){
