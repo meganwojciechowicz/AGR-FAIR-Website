@@ -1,8 +1,5 @@
 <style>
-}
 table {
-    width: 80%;
-    position: relative;
     table-layout: fixed;
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -11,6 +8,9 @@ table {
 td, th {
     border: 1px solid #dddddd;
     text-align: center;
+    padding: 8px;
+    width: 140px;
+
 }
 
 tr:nth-child(odd){
@@ -22,11 +22,12 @@ tr:nth-child(even){
 
 body {font-family: Arial, Helvetica, sans-serif;}
 
-p.ex1 { margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 30px;
-    margin-left: 30px;
+p.ex1{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1750px;
 }
+
 #myImg {
     border-radius: 5px;
     cursor: pointer;
@@ -133,7 +134,7 @@ p.ex1 { margin-top: 10px;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:15px;
-	padding: 1px 25px;
+	padding:7px 25px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #528ecc;
 }
